@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+padding: 0;
+}
+
+.header {
+   width: 100%;
+   height: 910px;
+   display: flex;
+   flex-direction: column;
+}
+.first-small {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    border: 20px;
+    border-color: rgb(121, 122, 122);
+    justify-content: space-around;
+}
+.logo {
+    width: 139px;
+    height: 100px;
+}
+.logo img {
+    width: 131px;
+    height: 72px;
+}
+.lang {
+    width: 82px;
+    height: 150px;
+    text-align: center;
+    margin: 0%;
+}
+.lang p {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    margin-bottom: -10px;
+}
+.russ {
+    padding: 4px 3px;
+    border-radius: 3px ;
+}
+.lang p:hover {
+    color: rgb(212, 51, 51);
+}
+.ue {
+width: 128px;
+height: 50px;
+margin-left: 10px;
+}
+.ue p {
+    font-family: 'Open Sans', sans-serif;
+}
+.icons {
+width: 128px;
+height: 50px;
+margin-top: 10px; 
+}
+.phnumb {
+    width: 192;
+    height: 70px;
+}
+.phnumb p {
+    font-family: 'Readex Pro', sans-serif;
+}
+.phonevbr {
+    width: 100px;
+    height: 70px;
+    margin-left: 30px;
+}
+.onlineord {
+    width: 250px;
+    height: 55px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.grey1 {
+    width: 190px;
+    height: 55px;
+    background-color: rgb(228, 228, 228);
+}
+.red {
+    width: 60px;
+    height: 55px;
+    background-color: rgb(233, 73, 73);
+}
+.red:hover {
+    background-color: rgb(248, 163, 163);
+    
+}
+.onlineord p {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 20px;
+}
+.onlineord2 p {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 20px;
+}
+.onlineord2 {
+    width: 240px;
+    height: 55px;
+    margin-left: 70px;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: row;
+}
+.grey2 {
+    width: 180px;
+    height: 55px;
+    background-color: rgb(228, 228, 228);
+}
+.green {
+    width: 60px;
+    height: 55px;
+    background-color: rgb(81, 219, 115);
+}
+.green:hover {
+    background-color: rgb(181, 247, 197);
+}
+.second-small {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.photohead {
+    width: 100%;
+    height: 490px;
+    background: url(./Mask\ Group.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+a {
+   display: block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(128, 128, 128);
+    background-color: rgb(255, 255, 255);
+    padding: 0  10px;
+
+
+}
+a:hover {
+   border-bottom: 2px solid rgb(255, 60, 60); 
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+ul li {
+    display: inline;
+    
+}
+ul li ul {
+    display: none;
+   position: absolute;
+   top: 35px;
+   left: 160px;
+  
+}
+ul li:hover > ul {
+    display: block;
+ 
+}
+ul li ul li {
+    display: block;
+   
+    
+}
+.hotels {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 150px;
+    width: 150px;
+}
+.countries {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 350px;
+    width: 150px;
+}
+.avia {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 460px;
+    width: 350px;
+}
+.catalog {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 650px;
+    width: 350px;
+}
+.agents {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 850px;
+    width: 350px;
+}
+.AbtUs {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 1150px;
+    width: 350px;
+}
+.blog {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 1200px;
+    width: 350px;
+}
+.faq {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 1380px;
+    width: 350px;
+}
+.contacts {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 1550px;
+    width: 350px;
+}
+.price {
+width: 235px;
+height: 65px;
+ font-family: 'Open Sans', sans-serif;
+ font-size: 25px;
+ color: rgb(255, 255, 255);
+ border: 1px solid rgb(255, 255, 255);
+margin-top: 95px;
+margin-left: 160px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headline {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-left: 160px;
+}
+.descrpt {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.left1 {
+    width: 60%;
+    height: 250px;
+}
+.left1 h1 {
+    margin-left: 75px;
+}
+.left1 h2 {
+    color: rgb(126, 126, 126);
+    font-family: 'Open Sans', normal;
+    margin-left: 75px;
+}
+.right1 {
+    width: 40%;
+    height: 250px;   
+}
+.var1 {
+    border: 1px solid rgb(192, 192, 192); 
+    margin: 30px;
+    width: 30%;
+    height: 60px;
+    color: rgb(85, 85, 85);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.var1:hover {
+    background-color:rgb(192, 192, 192); 
+    color: rgb(255, 255, 255);
+}
+.var2 {
+    border: 1px solid rgb(192, 192, 192); 
+    margin: 30px;
+    width: 30%;
+    height: 60px;
+    color: rgb(85, 85, 85);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.var2:hover {
+    background-color:rgb(192, 192, 192); 
+    color: rgb(255, 255, 255);
+}
+.option {
+    display: flex;
+    flex-direction: row;
+    margin-left: 47px;
+    font-family: 'Open Sans', normal;
+}
+.list {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.list li {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    align-items: center;
+}
+.list p {
+    margin-left: 20px;
+}
+.icon1 {
+height: 60px;
+width: 60px;
+border-radius: 50%;
+border: dashed rgb(158, 158, 158); 
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.icon1 img {
+    width: 35px;
+    height: 35px;
+}
+.besthotels {
+    width: 100%;
+    height: 350px;
+    border-top: 2px solid rgb(187, 187, 187)
+}
+.title1 {
+width: 100%;
+height: 250px;
+display: flex;
+flex-direction: row;
+}
+.title1 h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    margin-left: 305px;
+    margin-top: 100px;
+}
+.arrow {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(167, 167, 167) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
